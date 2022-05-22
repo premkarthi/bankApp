@@ -295,3 +295,35 @@
   .timer {
     font-weight: 600;
   }
+
+
+  @media screen and (max-width: 800px){
+      .logo{
+          display: none;
+      }
+      nav{
+          display: block;
+          padding: 0px;
+      }
+      .balance{
+          display: block;
+      }
+      nav p{
+          margin-bottom: 20px;
+      }
+      .app{
+          display: block;
+          gap: 20px;
+      }
+      .operation{
+          margin-bottom: 20px;
+      }
+      .summary__value{
+          font-size: 1.2rem;
+          margin-right: 1.5rem;
+          margin-bottom: 10px;
+      }
+      .btn--sort{
+        font-size: 1.2rem;
+      }
+  }
